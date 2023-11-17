@@ -55,7 +55,7 @@ export const PrimaryOutlineSmall = {
 
 export const PrimaryFilledSmall = {
   render: (args) => (
-    <Button {...args} size='sm' width='116px'>
+    <Button {...args} variant='primaryFilled' size='sm' width='116px'>
       다시 생성
       <MdRefreshIcon width='20px' height='20px' />
     </Button>
